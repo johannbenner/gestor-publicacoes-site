@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade do Gestor de Publicações</title>
+<link rel="stylesheet" href="../estilo.css">
+</head>
+<body><main>
+<h1>Política de Privacidade do Gestor de Publicações</h1>
+<p>Responsável: Johann Benner. Contato para privacidade e suporte: <a href="mailto:johannbenner.alb@gmail.com">johannbenner.alb@gmail.com</a>.</p>
+<p>O Gestor é de uso pessoal. Somente o responsável autoriza o acesso aos próprios canais. Estas páginas públicas são informativas e não recebem credenciais nem arquivos.</p>
+<h2>Dados acessados e finalidade</h2>
+<p>O Gestor lê na pasta autorizada do Google Drive os arquivos MP4, PNG e TXT e seus metadados, como nome, identificador, tamanho e versão. Usa esses dados para reunir os arquivos de cada vídeo, verificar a integridade e preparar a publicação. Com autorização OAuth, usa os Serviços da API do YouTube para consultar a identidade do canal e a lista de uploads, inclusive os itens privados e agendados retornados pela API, para prevenir duplicações. Também consulta identificadores, títulos, links, horários, visibilidade, processamento e miniaturas para confirmar o resultado das operações.</p>
+<h2>Serviços envolvidos e registros</h2>
+<p>O YouTube recebe o vídeo, o título, a capa e o horário da publicação destinada ao canal autorizado. Para Instagram, TikTok e Facebook, o Buffer recebe o texto, o horário e a URL de entrega do MP4. O Cloudinary hospeda a cópia do MP4 usada pelo Buffer. A cópia é acessível por URL para permitir a entrega. O GitHub Actions é o ambiente preparado para executar a rotina, e o diário do repositório privado guarda registros operacionais, como hashes, identificadores, links, horários e resultados. Essas páginas públicas não contêm o diário. O Gestor não vende esses dados nem os usa para publicidade ou perfilamento de visitantes.</p>
+<p>O Gestor não coleta a senha da conta Google. O acesso é concedido no Google e as credenciais usadas pela rotina ficam protegidas no ambiente de execução ou no cofre local. Consulte também a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a> e a <a href="https://developers.google.com/youtube/terms/developer-policies">política para desenvolvedores do YouTube</a>.</p>
+<h2>Revogação e solicitações de exclusão</h2>
+<p>O responsável pode revogar o acesso nas <a href="https://security.google.com/settings/security/permissions">permissões da Conta Google</a> e solicitar a exclusão dos dados mantidos pelo Gestor pelo e-mail acima. O procedimento é manual. Ao receber a solicitação, o responsável pausa a execução, identifica os dados abrangidos, remove os dados das cópias de trabalho e dos registros pertinentes e confirma a conclusão. Quando a revogação for iniciada pelo Gestor, o procedimento inclui revogar o token imediatamente no Google e remover suas cópias protegidas. A exclusão dos dados do Gestor não remove o conteúdo armazenado pelo YouTube. A remoção de vídeos no YouTube é feita no YouTube Studio.</p>
+<h2>Retenção e histórico Git</h2>
+<p>O procedimento de manutenção prevê atualizar ou excluir, no máximo a cada 30 dias, os dados da API do YouTube que estejam sujeitos a essa regra. Solicitações de exclusão são tratadas o quanto antes, em até sete dias corridos. Revogações pelo Gestor seguem o prazo de até sete dias corridos para os dados autorizados. Na revogação pelas permissões do Google ou quando a autorização não puder ser reconfirmada, os dados da API relacionados são removidos o quanto antes, em até 30 dias corridos.</p>
+<p>Na revisão manual, o responsável verifica o diário atual, commits anteriores, branches, tags, clones, artefatos e registros de execução que possam conter os dados. Se houver dados em commits antigos, editar o arquivo atual é insuficiente. O procedimento requer sanear as referências afetadas, substituir cópias controladas, remover artefatos pertinentes e verificar referências ou cópias em cache com o suporte do GitHub quando necessário. Registros próprios, como hashes de arquivos do responsável, são tratados separadamente dos dados obtidos pela API. A revisão periódica e a limpeza do histórico ainda não são automatizadas.</p>
+<p><a href="./">Voltar à página inicial</a></p>
+</main></body>
+</html>
